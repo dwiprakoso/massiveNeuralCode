@@ -790,3 +790,86 @@ img{
     position: relative;
     right: 95px;
 }
+.options-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.options-container button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card7-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card7 {
+    width: 45%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #F4F4F4;
+}
+
+.card7-header {
+    background-color: #f0f0f0;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+}
+
+.card7-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card7-image {
+    width: 40%;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card7-body {
+    font-size: 14px;
+}
+
+.card7-price {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card7-location {
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.card7-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card7-action {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .card7-container {
+        flex-direction: column;
+    }
+    .card7 {
+        width: 100%;
+    }
+}
